@@ -1,33 +1,107 @@
 /* место для вашего кода */
 .header {
+    padding: 92px 24px;
+}
+
+.header__menu {
+    display: grid;
+    grid-template-columns: 1.25fr 0.5fr 1.25fr;
+    align-items: center;
+    padding: 0px 26px;
+}
+
+.header__links-list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style: circle;
     
 }
+
+.header__links-list-item {
+    font-size: 18px;
+    line-height: 21.13px;
+    letter-spacing: 0.13px;
+}
+
+.header__links-list-item_no-bullit{
+    list-style: none;
+}
+
+.header__link_active {
+    text-decoration: none;
+}
+
+.header__link {
+    text-decoration: underline;
+}
+
+.header__logo {
+    justify-self: center;
+    align-self: center;
+    width: 136px;
+    display: block;
+}
+
+.header__logo-image {
+    
+}
+
+.header__address {
+    justify-self: flex-end;
+    font-size: 18px;
+    line-height: 24.3px;
+    padding-right: 38px;
+}
+
+
+.cover {
+
+}
+
+.cover__overlay {
+
+}
+
+.overlay {
+
+}
+
+
+.cover__title {
+}
+
+.cover__description {
+}
+
+.aligned-text {
+}
+
+.aligned-text_center {
+}
+
+.cover__description-text {
+}
+
+
 .footer {
 }
-.header__menu {
+
+.footer__menu {
 }
-.cover {
+
+.footer__social-list {
 }
+
+
 .lots {
 }
 .about {
 }
-.footer__menu {
-}
-.footer__social-list {
-}
-.header__links-list {
-}
-.header__logo {
-}
-.header__address {
-}
-.cover__overlay.overlay {
-}
-.cover__title {
-}
-.cover__description {
-}
+
+
+
+
 .lots__heading {
 }
 .lots__card-list {
@@ -40,18 +114,8 @@
 }
 .footer__social-list-item {
 }
-.header__links-list-item_no-bullit. {
-}
-.header__links-list-item {
-}
-.header__logo-image {
-}
-.aligned-text {
-}
-.aligned-text_center {
-}
-.cover__description-text {
-}
+
+
 .lots__card-list-item {
 }
 .about__logo {
@@ -64,10 +128,7 @@
 }
 .footer__social-link {
 }
-.header__link_active {
-}
-.header__link {
-}
+
 .letter-spacing-extended {
 }
 .aligned-text_right.no-letter-spacing {
