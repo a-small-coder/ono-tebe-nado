@@ -56,31 +56,146 @@
 
 
 .cover {
-
+    position: relative;
+    background: url("/images/cover.jpg") no-repeat center;
+    background-size: cover;
+    padding: 50px;
+    box-sizing: border-box;
 }
 
 .cover__overlay {
-
+    inset: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .overlay {
-
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    
 }
 
 
 .cover__title {
-}
-
-.cover__description {
+    display: flex;
+    flex-direction: column;
+    padding: 115px 0 135px 0;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    z-index: 2;
 }
 
 .aligned-text {
+    line-height: 115px;
 }
 
 .aligned-text_center {
+    line-height: 140px;
+    align-self: center;
+}
+
+.aligned-text_right {
+    line-height: 100px;
+    align-self: flex-end;
+}
+
+.no-letter-spacing {
+    letter-spacing: normal;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 0.6em;
+}
+
+.cover__description {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .cover__description-text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    word-spacing: 0.9em;
+    color: white;
+    text-transform: uppercase;
+}
+
+.bet-button {
+    width: 256px;
+    padding: 12px 0px;
+    background-color: inherit;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.83px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.lots {
+}
+
+.lots__heading {
+}
+
+.lots__card-list {
+}
+
+.lots__look-more-link {
+}
+
+.lots__card-list-item {
+}
+
+.card-link {
+}
+
+.card {
+
+}
+
+.card_type_film {
+}
+
+.card.card_type_book {
+}
+
+.card.card_type_picture {
+}
+
+.card__title {
+}
+
+.card__text {
+}
+
+.about {
+}
+
+.about__column {
+}
+
+
+.about__logo {
+}
+
+.about__title {
+}
+
+.about__text {
+}
+
+.about__logo-image {
 }
 
 
@@ -93,67 +208,24 @@
 .footer__social-list {
 }
 
-
-.lots {
-}
-.about {
-}
-
-
-
-
-.lots__heading {
-}
-.lots__card-list {
-}
-.lots__look-more-link {
-}
-.about__column {
-}
 .footer__menu-list {
 }
+
 .footer__social-list-item {
 }
 
-
-.lots__card-list-item {
-}
-.about__logo {
-}
-.about__title {
-}
-.about__text {
-}
 .footer__menu-list-item {
 }
+
 .footer__social-link {
 }
 
-.letter-spacing-extended {
-}
-.aligned-text_right.no-letter-spacing {
-}
-.bet-button {
-}
-.card-link {
-}
-.about__logo-image {
-}
 .footer__menu-link_active {
 }
+
 .footer__menu-link {
 }
+
 .footer__social-icon {
 }
-.card.card_type_film {
-}
-.card.card_type_book {
-}
-.card.card_type_picture {
-}
-.overlay {
-}
-.card__title {
-}
-.card__text {
-}
+
