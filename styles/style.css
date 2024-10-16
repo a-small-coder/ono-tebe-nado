@@ -39,10 +39,10 @@
 }
 
 .header__logo {
+    display: block;
     justify-self: center;
     align-self: center;
     width: 136px;
-    display: block;
 }
 
 .header__logo-image {
@@ -50,10 +50,10 @@
 }
 
 .address {
+    padding-right: 38px;
     font-size: 18px;
     line-height: 24.3px; /* 135% */
     letter-spacing: 0.18px;
-    padding-right: 38px;
 }
 
 .header__address {
@@ -63,10 +63,10 @@
 
 .cover {
     position: relative;
+    box-sizing: border-box;
+    padding: 50px;
     background: url("/images/cover.jpg") no-repeat center;
     background-size: cover;
-    padding: 50px;
-    box-sizing: border-box;
 }
 
 .cover__overlay {
@@ -74,23 +74,23 @@
 }
 
 .overlay {
+    position: absolute;
     width: 100%;
     height: 100%;
-    position: absolute;
     background-color: rgba(0,0,0,0.6);
 }
 
 .cover__title {
+    position: relative;
+    z-index: 2;
     display: flex;
     flex-direction: column;
     padding: 115px 0 135px 0;
-    font-size: 100px;
+    color: white;
     font-weight: 700;
+    font-size: 100px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
-    color: white;
-    position: relative;
-    z-index: 2;
 }
 
 .aligned-text {
@@ -98,13 +98,13 @@
 }
 
 .aligned-text_center {
-    line-height: 140px;
     align-self: center;
+    line-height: 140px;
 }
 
 .aligned-text_right {
-    line-height: 100px;
     align-self: flex-end;
+    line-height: 100px;
 }
 
 .no-letter-spacing {
@@ -125,13 +125,13 @@
 }
 
 .cover__description-text {
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 28px;
-    word-spacing: 0.9em;
-    color: white;
-    text-transform: uppercase;
     padding-left: 28px;
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    word-spacing: 0.9em;
 }
 
 .cover__description-text > .letter-spacing-extended {
@@ -140,15 +140,15 @@
 
 .bet-button {
     width: 256px;
-    padding: 12px 0px;
-    background-color: inherit;
     border: 1px solid white;
-    text-align: center;
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 25.83px;
+    padding: 12px 0px;
     color: white;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 25.83px;
+    text-align: center;
     text-transform: uppercase;
+    background-color: inherit;
     cursor: pointer;
 }
 
@@ -158,42 +158,42 @@
 }
 
 .lots__heading {
-    color: black;
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
     padding-left: 40px;
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 .lots__card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 100%;
     padding-top: 28px;
     padding-bottom: 30px;
     list-style: none;
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    gap: 25px;
 }
 
 .lots__card-list-item {
-    min-height: 300px;
-    width: fit-content;
     flex-grow: 1;
+    width: fit-content;
+    min-height: 300px;
 }
 
 .card-link {
-    height: 100%;
     position: relative;
     display: block;
+    height: 100%;
 }
 
 .card {
-    height: 100%;
-    width: 334px;
-    padding: 50px 40px 48px 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 334px;
+    height: 100%;
+    padding: 50px 40px 48px 40px;
 }
 
 .card_type_film {
@@ -214,9 +214,9 @@
 .card__title {
     z-index: 2;
     color: white;
+    font-weight: 700;
     font-size: 22px;
     font-style: normal;
-    font-weight: 700;
     line-height: 120%; /* 26.4px */
     text-decoration-line: underline;
     text-transform: uppercase;
@@ -226,18 +226,18 @@
 .card__text {
     z-index: 2;
     color: white;
+    font-weight: 400;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
     line-height: 120%; /* 24px */
 }
 
 .lots__look-more-link {
     padding-left: 40px;
     color: black;
+    font-weight: 400;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
     line-height: normal;
     cursor: pointer;
 }
@@ -253,14 +253,14 @@
 
 
 .about__logo {
-    margin: 0px 72px 0px 47px;
-    width: 240px;
-    height: 240px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    width: 240px;
+    height: 240px;
+    margin: 0px 72px 0px 47px;
     border-radius: 50%;
+    background-color: black;
 }
 
 .about__logo-image {
@@ -269,21 +269,21 @@
 }
 
 .about__title {
+    margin: 100px 0px;
     color: black;
+    font-weight: 700;
     font-size: 40px;
     font-style: normal;
-    font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    margin: 100px 0px;
 }
 
 .about__text {
     margin-bottom: 24px;
     color: #000;
+    font-weight: 400;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
     line-height: 24px; /* 120% */
     letter-spacing: 0.2px;
 }
@@ -317,15 +317,15 @@
 
 .footer__menu-list-item {
     color: black;
+    font-weight: 400;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
     line-height: normal;
 }
 
 .footer__menu-link_active {
-    cursor: pointer;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .footer__menu-link {
@@ -334,8 +334,8 @@
 
 .footer__social-list {
     display: flex;
-    gap: 48px;
     justify-self: flex-end;
+    gap: 48px;
     list-style: none;
 }
 
