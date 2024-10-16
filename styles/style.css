@@ -45,9 +45,9 @@
     width: 136px;
 }
 
-.header__logo-image {
+/* .header__logo-image {
     
-}
+} */
 
 .address {
     padding-right: 38px;
@@ -343,8 +343,8 @@
     cursor: pointer;
 }
 
-.footer__social-list-item {
-}
+/* .footer__social-list-item {
+} */
 
 .footer__social-icon {
     width: 48px;
