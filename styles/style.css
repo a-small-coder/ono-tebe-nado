@@ -65,7 +65,7 @@
     position: relative;
     box-sizing: border-box;
     padding: 50px;
-    background: url("/images/cover.jpg") no-repeat center;
+    background: url("../images/cover.jpg") no-repeat center;
     background-size: cover;
 }
 
@@ -197,17 +197,17 @@
 }
 
 .card_type_film {
-    background: url("/images/card-lot-01.jpg") no-repeat center;
+    background: url("../images/card-lot-01.jpg") no-repeat center;
     background-size: cover;
 }
 
 .card.card_type_book {
-    background: url("/images/card-lot-02.jpg") no-repeat center;
+    background: url("../images/card-lot-02.jpg") no-repeat center;
     background-size: cover;
 }
 
 .card.card_type_picture {
-    background: url("/images/card-lot-03.jpg") no-repeat center;
+    background: url("../images/card-lot-03.jpg") no-repeat center;
     background-size: cover;
 }
 
