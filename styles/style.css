@@ -23,7 +23,7 @@
     letter-spacing: 0.13px;
 }
 
-.header__links-list-item_no-bullit{
+.header__links-list-item_no-bullit {
     list-style: none;
 }
 
@@ -292,7 +292,7 @@
     padding: 0px 50px 90px 50px;
 }
 
-.footer__address{
+.footer__address {
     justify-self: flex-start;
 }
 
