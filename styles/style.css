@@ -28,7 +28,7 @@
     list-style: none;
 }
 
-.header__link_active {
+.header__link._active {
     text-decoration: none;
     cursor: pointer;
 }
