@@ -26,15 +26,19 @@
 .header__links-list-item_no-bullit {
     list-style: none;
 }
-
-.header__link._active {
+/* 
+Для всех ссылок класс active будет убирать text-decoration 
+Альтернативная реализация через явное перечисление, например, 
+.header__link.active, .footer__link.active {} 
+Такой подход позволит избежать неявного поведения, но 
+ухудшает читаемость, поэтому оставляю вариант через селектор элемента 
+*/
+a.active {
     text-decoration: none;
-    cursor: pointer;
 }
 
 .header__link {
     text-decoration: underline;
-    cursor: pointer;
 }
 
 .header__logo {
@@ -313,10 +317,6 @@
     font-size: 18px;
     font-style: normal;
     line-height: normal;
-}
-
-.footer__menu-link._active {
-    text-decoration: none;
 }
 
 
